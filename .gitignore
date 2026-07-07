@@ -1,0 +1,63 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# C/C++ build files
+build/
+Debug/
+Release/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# MATLAB
+*.asv
+*.mat
+
+# LTspice / simulation outputs
+*.raw
+*.log
+*.net
+
+# Vivado / FPGA generated junk
+.Xil/
+*.jou
+*.str
+*.log
+*.bit
+*.ltx
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Large/generated data
+data/
+datasets/
+*.csv
+*.tsv
+*.gz
+*.zip
+*.tar
+*.7z
+
+# Secrets
+*.pem
+*.key
+.env
+secrets.*
